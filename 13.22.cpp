@@ -5,7 +5,6 @@
 #include <cctype>
 
 std::string transform_word(const std::string& word) {
-    // 1. Перевірка довжини
     if (word.length() <= 2) {
         return word;
     }
@@ -74,4 +73,5 @@ int main() {
 
 
     return 0;
+
 }
